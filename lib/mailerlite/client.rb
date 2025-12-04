@@ -18,13 +18,13 @@ module MailerLite
 
   # Inits the client.
   class Client
-    def initialize
+    def initialize(api_token = nil)
       if MailerLite.use_dotenv
         require 'dotenv'
         Dotenv.load
         Dotenv.require_keys('MAILERLITE_API_TOKEN')
       end
-      @api_token = ENV.fetch('MAILERLITE_API_TOKEN', nil)
+      @api_token = api_token || ENV.fetch('MAILERLITE_API_TOKEN', nil)
     end
 
     def headers
