@@ -1,3 +1,6 @@
+## [2.0.1] - 2025-12-04
+- Loosen gem dependency version requirements to be more flexible
+
 ## [2.0.0] - 2024-12-11
 - *BREAKING CHANGE* - Please check the README file, dotenv is now optional
 - *BREAKING CHANGE* - Updated the minimal required Ruby version from 2.5 to 3.1
