@@ -1,3 +1,6 @@
+## [2.0.2] - 2025-12-04
+- Allow api_token to be passed during construction of MailerLite::Client (again)
+
 ## [2.0.1] - 2025-12-04
 - Loosen gem dependency version requirements to be more flexible
 
